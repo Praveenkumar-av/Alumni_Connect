@@ -1,0 +1,75 @@
+/* Reset margin */
+#d100 {
+    margin: 0;
+}
+
+/* Common styles */
+#main1, #d102, #d103 {
+    background-color: #0077b5;
+}
+
+/* Header styles */
+h1, h2, h3 {
+    color: white;
+    padding: 10px;
+}
+
+/* Button styles */
+button {
+    height: 40px;
+    background-color: green;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Input styles */
+input {
+    width: 500px;
+    height: 40px;
+}
+
+/* Lists */
+ul, ol {
+    list-style: none;
+    color: white;
+}
+
+/* List item styles */
+ul li, ol li {
+    padding: 10px;
+    margin-left: 15px;
+}
+
+/* Hover styles */
+ul li:hover, ol li:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+/* Display settings */
+#new1, #d111, #d104, #ul2, #d105 {
+    display: none;
+}
+
+/* Specific element styles */
+#inp1 {
+    margin-top: -80px;
+    margin-left: 200px;
+}
+
+#d101, #d103 {
+    display: flex;
+}
+
+#d104 {
+    margin-top: -17px;
+}
+
+#ul2 li {
+    background-color: gray;
+}
+
+/* Adjustments */
+input#sent {
+    border-radius: 40px;
+}

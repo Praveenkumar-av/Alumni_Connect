@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; /* Added to arrange elements vertically */
+      height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    .loader {
+      border: 8px solid #3498db; /* Blue */
+      border-top: 8px solid transparent;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite; /* Apply the animation */
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .message {
+      font-family: Arial, sans-serif;
+      color: #333;
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="loader"></div>
+  <div class="message">Verifying, Please wait...</div>
+  <script>
+    setTimeout(function() {
+      window.location.href = "new_page.html"; // Redirect to the new page after 10 seconds
+    }, 10000); // 10000 milliseconds = 10 seconds
+  </script>
+</body>
+</html>

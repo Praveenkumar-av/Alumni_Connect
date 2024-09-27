@@ -1,0 +1,56 @@
+body {
+    background-color: #00bcd4;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+}
+
+.welcome-container {
+    margin-left: 5%;
+    font-size: 30px;
+}
+a{
+    margin-top: 10px;
+    
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    background-color: magenta;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    background-color: green;
+}
+
+#a2{
+    margin-left: 10px;
+}
+
+
+.welcome-container button {
+    margin-top: 10px;
+    width: 20%;
+    padding: 10px;
+    background-color: magenta;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+p {
+    color: white;
+    max-width: 600px;
+    overflow-wrap: break-word;
+}

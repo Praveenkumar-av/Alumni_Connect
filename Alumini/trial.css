@@ -1,0 +1,153 @@
+#d100{
+    margin: -2px;
+
+}
+#main1{
+    background-color:lightblue;
+    margin-top: 20px;
+}
+h3{
+    margin-left: 30px;
+    padding-bottom:20px;
+}
+#new1{
+    display: none;
+}
+#d111{
+    display: none;
+}
+button{
+    
+    margin-left: 50px;
+    height: 40px;
+    background-color: green;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+
+}
+
+input{
+    
+    margin-left: 180PX;
+    width:500px;
+    height: 40px;
+
+    
+    
+    
+}
+#inp1{
+    margin-top: -80px;
+    margin-left: 200px;
+}
+ul{
+    list-style: none;
+    height: 600px;
+    width:120px;
+    background-color: #0077b5;
+    color:white;
+
+}
+h1{
+    background-color: #0077b5;
+    color:white;
+    padding: 10px;
+}
+ul li{
+    margin-left: 15px;
+    padding: 10px;
+    margin-top: 20px;
+}
+ul li:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+ol li:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+#d101{
+    display: flex;
+    margin-top: -40;
+}
+#d103{
+    display: flex;
+    margin-top:16.8px;
+    background-color: #0077b5;
+    margin-left: 10px;
+    height: 600px;
+}
+#d102{
+
+    margin-top:17px;
+    width: 1255px;
+    padding-right: 1055px;
+    height: 600px;
+    margin-left: 10px;
+    
+
+    background-image: url("alum_cnt.png");
+            background-repeat: no-repeat;
+            background-size:1255px 600px;
+}
+#d104{
+    display: none;
+    margin-top:-14px;
+    height: 480px;
+
+
+
+}
+
+#ul2 li{
+    background-color: grey;
+    
+}
+
+#new1{
+    background-color: #0077b5;
+    width: 160px;
+    height: 600px;
+    display: none;
+    background-color: #0077b5;
+    
+}
+#ul2{
+    background-color:lightblue;
+    width: 500px;
+    height: 580px;
+    
+
+    
+}
+#d105{
+    width: 1055px;
+    height: 600px;
+    display: none;
+    background-color:lightblue;
+    margin-left: 20px;
+    overflow: auto;
+}
+h2{
+    width:1200px;
+}
+
+ol{
+    height: 580px;
+    width:120px;
+    list-style: none;
+    background-color: #0077b5;
+    color: white;
+    
+
+}
+
+ol li{
+    margin-left: 15px;
+    padding: 10px;
+}
+#sent{
+    border-radius: 40px;
+}
